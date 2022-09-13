@@ -5,6 +5,7 @@ body {
     font-weight: 400;
     line-height: 1.4;
     font-family: 'Nanum Gothic', sans-serif;
+    height: 3000px;
 }
 img {
     display: block;
@@ -21,8 +22,11 @@ a {
 
 /* HEADER */
 header { 
- background-color: #f6f5f0;
- border-bottom: 1px solid #c8c8c8;
+    width: 100%;
+    background-color: #f6f5f0;
+    border-bottom: 1px solid #c8c8c8;
+    position: fixed;
+    top: 0;
 }
 header > .inner {
     height: 120px;
@@ -169,4 +173,16 @@ header .main-menu .item .item__contents .contents__texture h4 {
 header .main-menu .item .item__contents .contents__texture p {
     color: #669900;
     margin: 4px 0 14px;
+}
+header .badges {
+    position: absolute;
+    top: 132px;
+    right: 12px;
+}
+header .badges .badge {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .15);
+    cursor: pointer;
 }
