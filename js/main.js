@@ -131,3 +131,7 @@ spyEls.forEach(function (spyEls) {
         .setClassToggle(spyEls, 'show')
         .addTo(new ScrollMagic.Controller());
 });
+
+
+const thisYear = document.querySelector('.this-year');
+thisYear.textContent = new Date().getFullYear(); // 2022

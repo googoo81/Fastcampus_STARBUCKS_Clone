@@ -788,3 +788,77 @@ header .badges .badge {
     background-color: #fff;
     color: #333;
 }
+
+
+/* FOOTER */
+footer {
+    background-color: #272727;
+    border-top: 1px solid #333;
+}
+footer .inner {
+    padding: 40px 0 60px 0;
+}
+footer .menu {
+    display: flex;
+    justify-content: center;
+}
+footer .menu li {
+    position: relative;
+}
+footer .menu li::before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    background-color: #555;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -1px;
+    margin: auto;
+}
+footer .menu li:last-child::before {
+    display: none;
+}
+footer .menu li a {
+    display: block;
+    color: #CCC;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 15px;
+}
+footer .menu li a.green {
+    color: #669900;
+}
+footer .btn-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+footer .btn-group .btn {
+    font-size: 12px;
+    margin-right: 10px;
+}
+footer .btn-group .btn:last-child {
+    margin-right: 0;
+}
+footer .info {
+    margin-top: 30px;
+    text-align: center;
+}
+footer .info span {
+    margin-right: 20px;
+    color: #999;
+    font-size: 12px;
+}
+footer .info span:last-child {
+    margin-right: 0;
+}
+footer .copyright {
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 12px;
+}
+footer .logo {
+    margin: 30px auto 0;
+}
