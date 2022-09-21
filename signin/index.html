@@ -22,15 +22,14 @@
 
     <link rel="icon" href="../favicon.png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" href="../css/common.css" />
-    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/signin.css" />
 
     <script defer src="../js/common.js"></script>
-    <script defer src="../js/main.js"></script>
 </head>
 <body>
 
@@ -368,8 +367,28 @@
 
 
     <section class="signin">
-
+        <h1>로그인</h1>
+        <div class="signin__card">
+            <h2>
+                <strong> Welcom!</strong> 스타벅스에 오신 것을 환영합니다.
+            </h2>
+            <form>
+                <input type="text" placeholder="아이디를 입력하세요." />
+                <input type="password" placeholder="비밀번호를 입력하세요." />
+                <input type="submit" placeholder="로그인" />
+                <p>
+                    * 비밀번호를 타 사이트와 같이 사용할 경우 도용 위험이 있으니, <br />
+                    정기적으로 비밀번호를 변경하세요!
+                </p>
+            </form>
+            <div class="actions">
+                <a href="javascript:void(0)">회원가입</a>
+                <a href="javascript:void(0)">아이디 찾기</a>
+                <a href="javascript:void(0)">비밀번호 찾기</a>
+            </div>
+        </div>  
     </section>
+
 
   <!-- FOOTER -->
   <footer>
