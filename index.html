@@ -1,50 +1,45 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
     <title>Starbucks Coffee Korea</title>
-
+  
+    <!--Open Graph-->
+    <!--http://ogp.me/-->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Starbucks" />
     <meta property="og:title" content="Starbucks Coffee Korea" />
     <meta property="og:description" content="스타벅스는 세계에서 가장 큰 다국적 커피 전문점으로, 64개국에서 총 23,187개의 매점을 운영하고 있습니다." />
-    <meta property="og:image" content="./images/starbucks_seo.jpg" />
+    <meta property="og:image" content="../images/starbucks_seo.jpg" />
     <meta property="og:url" content="https://starbucks.co.kr" />
-
+  
+    <!--Twitter Card-->
+    <!--https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started-->
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:site" content="Starbucks" />
     <meta property="twitter:title" content="Starbucks Coffee Korea" />
     <meta property="twitter:description" content="스타벅스는 세계에서 가장 큰 다국적 커피 전문점으로, 64개국에서 총 23,187개의 매점을 운영하고 있습니다." />
-    <meta property="twitter:image" content="./images/starbucks_seo.jpg" />
+    <meta property="twitter:image" content="../images/starbucks_seo.jpg" />
     <meta property="twitter:url" content="https://starbucks.co.kr" />
-
-    <link rel="icon" href="./favicon.png" />
+  
+    <!--파비콘-->
+    <!--<link rel="shortcut icon" href="favicon.ico" />-->
+    <link rel="icon" href="../favicon.png" />
+    <!--브라우저 스타일 초기화-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="./css/main.css" />
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
-    <!-- GSAP & ScrollToPlugin -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollToPlugin.min.js" integrity="sha512-9DDJWj17gkdeGHU0Zr76wc9jY2g0IwE7ZCIxakVYKyzlTiOWZDZJOTaVgAzNo+LB7+EbGXxwCXkOP+a5rgkuqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <!-- SWIPER -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" /> 
-    <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
-
-    <!--ScrollMagic-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
-
-    <script defer src="./js/youtube.js"></script>
-    <script defer src="./js/main.js"></script>
-    
-</head>
+    <!--Google Fonts - 나눔고딕-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
+    <!--Google Material Icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/signin.css" />
+  
+    <script defer src="../js/common.js"></script>
+  </head>
 <body>
 
     <!-- HEADER -->
@@ -58,7 +53,7 @@
             <div class="sub-menu">
                 <ul class="menu">
                     <li>
-                        <a href="/signin">Sign In</a>
+                        <a href="./signin/index.html">Sign In</a>
                     </li>
                     <li>
                         <a href="jaavascript:void(0)">My Starbucks</a>
